@@ -1,0 +1,21 @@
+* {
+    box-sizing: margin-box;
+    margin: 0;
+}
+
+.graficaheader {
+    height: 10vh;
+    background-image: url("../img/pattern.png");
+    background-color: rgb(78, 160, 255);
+    background-repeat: repeat;
+    position: relative;
+}
+#booleaner {
+    height: auto;
+    width: 12%;
+    position: absolute;
+    bottom: 5%;
+}
+.titolo {
+    
+}
