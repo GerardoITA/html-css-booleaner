@@ -2,6 +2,10 @@
     box-sizing: border-box;
     margin: 0;
 }
+body {
+    width: 45vw;
+    height: auto;
+}
 /* Header ------------------------------- */
 .graficaheader {
     height: 10vh;
@@ -18,7 +22,7 @@
 }
 /* Main ------------------------------- */
 main {
-    margin: 1vh;
+    margin: 0.5vh;
 }
 /* Titolo e data ------------------------------- */
 .titolo {
@@ -42,9 +46,10 @@ thead {
     color: white;
     background-color: rgb(0, 162, 255);
 }
-td {
-   backg
+tr {
+   display: inline-block;
 }
+
 .didascalia {
     font-size: 10px;
 }
