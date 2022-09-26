@@ -1,8 +1,8 @@
 * {
-    box-sizing: margin-box;
+    box-sizing: border-box;
     margin: 0;
 }
-
+/* Header ------------------------------- */
 .graficaheader {
     height: 10vh;
     background-image: url("../img/pattern.png");
@@ -16,6 +16,77 @@
     position: absolute;
     bottom: 5%;
 }
+/* Main ------------------------------- */
+main {
+    margin: 1vh;
+}
+/* Titolo e data ------------------------------- */
 .titolo {
-    
+    font-size: 30px;
+}
+.scrittoda {
+    font-size: 15px;
+    color: grey;
+}
+.data {
+
+}
+#autore {
+    color: rgb(113, 200, 238);
+}
+/* Articolo ------------------------------- */
+p {
+    margin-top: 10px;
+}
+thead {
+    color: white;
+    background-color: rgb(0, 162, 255);
+}
+td {
+   backg
+}
+.didascalia {
+    font-size: 10px;
+}
+.evidenziato {
+    background-color: yellow;
+}
+.testoarticolo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bigtab {
+    text-align: right;
+}
+.blue {
+    background-color: lightblue;
+}
+.white {
+    background-color: white;
+}
+#list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Footer ------------------------------- */
+.correlati {
+    margin: 10px;
+    color: grey;
+    font-size: 16px;
+    font-weight: bold;
+}
+footer div {
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 160px;
+    width: 240px;
+}
+#articolo1 {
+    background-image: url(../img/monitor.jpg);
+}
+#articolo2 {
+    background-image: url(../img/graph.jpg);
 }
