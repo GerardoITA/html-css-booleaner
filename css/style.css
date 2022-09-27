@@ -2,9 +2,8 @@
     box-sizing: border-box;
     margin: 0;
 }
-body {
-    width: 45vw;
-    height: auto;
+#page {
+    width: 100vh;
 }
 /* Header ------------------------------- */
 .graficaheader {
@@ -46,10 +45,9 @@ thead {
     color: white;
     background-color: rgb(0, 162, 255);
 }
-tr {
-   display: inline-block;
+table {
+    border-collapse: collapse;
 }
-
 .didascalia {
     font-size: 10px;
 }
@@ -86,6 +84,7 @@ footer div {
     font-size: 20px;
     height: 160px;
     width: 240px;
+    background-size: contain;
 }
 #articolo1 {
     background-image: url(../img/monitor.jpg);
